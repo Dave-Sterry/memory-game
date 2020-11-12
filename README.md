@@ -34,7 +34,15 @@ The site can be viewed [here](insert link)
 | describe  |||
 | Test | Input | output |
 
+Describe: Arrays()
 
+Test: Should create an instance of Arrays.  
+Expect: Arrays().toEqual(this.source, this.display).  
+
+Test: It should move an element from one array to another.
+Code: displayArray = [];
+Code: sourceArray = [1,1,2,2,3,3,4,4,5,5,6,6];
+Expect: displayArray.push[sourceArray[0]].toEqual(displayArray = [1]);
 
 
 ## Contact and Support details
