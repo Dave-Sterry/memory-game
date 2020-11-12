@@ -8,8 +8,11 @@ Arrays.prototype.addNum = function (i) {
 }
 
 
-
-
+Arrays.prototype.randNum = function(min, max) {
+min = Math.ceil(1)
+max = this.source.length
+Math.floor(Math.random() * (max - min +1) + min);
+}
 
 //psuedo code 
 // displayArray[]
