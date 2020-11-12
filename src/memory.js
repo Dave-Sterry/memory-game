@@ -3,8 +3,8 @@ export function Arrays() {
   this.display = [];
 }
 
-Arrays.prototype.addNum = function () {
-  this.display.push(this.source[0]);
+Arrays.prototype.addNum = function (i) {
+  this.display.push(this.source[i]);
 }
 
 
